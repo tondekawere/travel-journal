@@ -5,10 +5,9 @@ import TravelJournalCard from "./TravelJournalCard";
 const TravelJournal = () => {
   const cardsData = [
     {
-      // image: "https://source.unsplash.com/WLxQvbMyfas",
       image: "/fiji.png",
       country: "JAPAN",
-      link: "https://www.google.com/maps",
+      link: "https://www.google.com/maps/place/Mount+Fuji",
       title: "Mount Fuji",
       dates: "12 Jan, 2021 - 24 Jan, 2021",
       description:
@@ -17,16 +16,16 @@ const TravelJournal = () => {
     {
       image: "/sydney.png",
       country: "AUSTRALIA",
-      link: "https://www.google.com/maps",
+      link: "https://www.google.com/maps/place/Sydney+Opera+House",
       title: "Sydney Opera House",
       dates: "27 May, 2021 - 8 Jun, 2021",
       description:
-        "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
+        "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings.",
     },
     {
       image: "/gjord.png",
       country: "NORWAY",
-      link: "https://www.google.com/maps",
+      link: "https://www.google.com/maps/place/Geirangerfjord",
       title: "Geirangerfjord",
       dates: "01 Oct, 2021 - 18 Oct, 2021",
       description:
